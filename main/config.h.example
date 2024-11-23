@@ -1,0 +1,8 @@
+#define WIFI_SSID ""
+#define WIFI_PASS ""
+
+#define HA_TEMP_URL "https://<HA_HOSTNAME>:8123/api/states/sensor.outside_temperature"
+#define HA_HUMIDITY_URL "https://<HA_HOSTNAME>:8123/api/states/sensor.outside_humidity"
+#define HA_VOLTAGE_URL "https://<HA_HOSTNAME>:8123/api/states/sensor.outside_battery_voltage"
+
+#define HA_TOKEN "Bearer XXXXX"
